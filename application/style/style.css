@@ -1,0 +1,239 @@
+.login {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.login .div {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 900px;
+    position: relative;
+}
+
+.login .logo-telkom {
+    position: absolute;
+    width: 47px;
+    height: 68px;
+    top: 80px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.login .adventure {
+    position: absolute;
+    width: 142px;
+    height: 32px;
+    top: 95px;
+    left: 178px;
+}
+
+.login .overlap {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    top: 891px;
+    left: 104px;
+    background-color: #ffffff;
+    border-radius: 9px;
+}
+
+.login .ph-arrow-up-light {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 21px;
+    left: 21px;
+}
+
+.login .ph-arrow-up-light-wrapper {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    top: 891px;
+    left: 854px;
+    background-color: #ffffff;
+    border-radius: 9px;
+}
+
+.login .text-wrapper {
+    position: absolute;
+    width: 449px;
+    height: 30px;
+    top: 285px;
+    left: 265px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #868686;
+    font-size: 25px;
+    letter-spacing: -0.43px;
+    line-height: normal;
+}
+
+.login .text-wrapper-2 {
+    position: absolute;
+    height: 51px;
+    top: 231px;
+    left: 320px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 42px;
+    letter-spacing: -0.71px;
+    line-height: normal;
+}
+
+.login .text-wrapper-3 {
+    position: absolute;
+    height: 34px;
+    top: 357px;
+    left: 225px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 28px;
+    letter-spacing: -0.48px;
+    line-height: normal;
+}
+
+.Password {
+    position: absolute;
+    top: 550px;
+    left: 225px;
+    color: #b7b7b7;
+}
+
+.Username {
+    position: absolute;
+    top: 411px;
+    left: 225px;
+    color: #b7b7b7;
+}
+
+.login .text-wrapper-4 {
+    position: absolute;
+    height: 22px;
+    top: 16px;
+    left: 28px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #b7b7b7;
+    font-size: 18px;
+    letter-spacing: -0.31px;
+    line-height: normal;
+}
+
+.login .rectangle {
+    width: 477px;
+    height: 56px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+.login .text-wrapper-5 {
+    position: absolute;
+    height: 34px;
+    top: 500px;
+    left: 225px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 28px;
+    letter-spacing: -0.48px;
+    line-height: normal;
+}
+
+.login .text-wrapper-6 {
+    position: absolute;
+    height: 22px;
+    top: 640px;
+    left: 260px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: -0.31px;
+    line-height: normal;
+}
+
+.login .overlap-3 {
+    position: absolute;
+    width: 477px;
+    height: 56px;
+    top: 554px;
+    left: 176px;
+}
+
+.login .checkbox {
+    width: 26px;
+    height: 26px;
+    top: 637px;
+    left: 225px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+.login .tombol-tanpa-border {
+    position: absolute;
+    height: 22px;
+    top: 640px;
+    left: 560px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ca292e;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: -0.31px;
+    line-height: normal;
+    background-color: transparent;
+    /* Warna latar belakang tombol */
+    border: none;
+    /* Menghilangkan border */
+    cursor: pointer;
+    /* Mengubah kursor saat mengarah ke tombol */
+}
+
+.login .buttonlgn {
+    position: absolute;
+    width: 480px;
+    height: 50px;
+    top: 694px;
+    left: 225px;
+    background-color: #ca292e;
+    box-shadow: 0px 10px 100px #ff7d5b1a;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.buttonlgn:hover {
+    background-color: #0056b3;
+}
+
+.carosel {
+    width: 1000px;
+    margin-left: 900px;
+}
+
+.carousel-item {
+    height: 960px;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #999;
+}
